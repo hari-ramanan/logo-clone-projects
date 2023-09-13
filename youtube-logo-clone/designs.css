@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Bricolage+Grotesque:opsz@10..48&family=Courier+Prime&family=Gothic+A1:wght@800&family=Imprima&family=Inter:wght@500&family=Poppins&family=Questrial&family=Quicksand:wght@600&family=Roboto+Flex:opsz,wght@8..144,500&family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+:root{
+    --background-light: #ffffff;
+    --text-light: #000000;
+    --background-dark: #1a1a1a;
+    --text-dark: #ffffff;
+}
+
+body{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 60px;
+    background-color: var(--background-light);
+    color: var(--text-light);
+    
+}
+
+.toggle-switch{
+    position: absolute;
+    top: 33%;
+    left: 32%;
+    cursor: pointer;
+}
+
+.logo-container{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.yt-logo-outer{
+    width: 150px;
+    height: 105px;
+    border: 1px solid red;
+    border-radius: 20%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yt-logo-inner i{
+    font-size: 55px;
+    color: #fff;
+}
+
+.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+.dark-mode .yt-logo-inner i {
+    color: var(--text-dark);
+}
