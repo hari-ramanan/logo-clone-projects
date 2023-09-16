@@ -1,0 +1,51 @@
+:root{
+    --gradient-color: linear-gradient(to right,  #5001fb, #8e0af3);
+}
+
+.insta-logo-container{
+    position: absolute;
+    top: 42%;
+    left: 47%;
+}
+
+.insta-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border: 6px solid;
+    border-radius: 25px;
+}
+
+.insta-logo-big-round{
+    border: 4px solid;
+    border-radius: 50%; 
+    width: 30px; 
+    height: 30px; 
+}
+
+.insta-logo-small-round{
+    position: absolute;
+    top: 10;
+    right: 11;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+
+.logo-text{
+    position: absolute;
+    bottom: 5%;
+    left: 49%;
+}
+
+.logo-text p{
+    color: gainsboro;
+    font-size: 20px;
+}
+
+.logo-text i{
+    font-size: 18px;
+}
